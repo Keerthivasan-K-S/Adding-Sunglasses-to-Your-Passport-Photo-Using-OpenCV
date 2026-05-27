@@ -35,7 +35,7 @@ import matplotlib.pyplot as plt
 faceImage = cv2.imread('psprt.jpg')
 plt.imshow(faceImage[:,:,::-1]);plt.title("Face")
 ```
-<img width="350" height="436" alt="image" src="https://github.com/user-attachments/assets/2d732f23-fa8f-4c3d-b657-8fefad0872f8" />
+<img width="426" height="532" alt="image" src="https://github.com/user-attachments/assets/7cb7d7ac-3040-4e5c-bac2-2bcc16fc891a" />
 
 ```py
 faceImage.shape
@@ -49,7 +49,7 @@ glassPNG = cv2.imread('sunglasses.png',-1)
 plt.imshow(glassPNG[:,:,::-1]);plt.title("glassPNG")
 
 ```
-<img width="558" height="286" alt="image" src="https://github.com/user-attachments/assets/059033d4-98cc-43fe-bd04-c1d69193d7ca" />
+<img width="723" height="355" alt="image" src="https://github.com/user-attachments/assets/bdd3bb5f-46e5-480e-9784-7e4d768e1140" />
 
 ```py
 # Resize the image to fit over the eye region
@@ -70,7 +70,7 @@ plt.figure(figsize=[15,15])
 plt.subplot(121);plt.imshow(glassBGR[:,:,::-1]);plt.title('Sunglass Color channels');
 plt.subplot(122);plt.imshow(glassMask1,cmap='gray');plt.title('Sunglass Alpha channel');
 ```
-<img width="1090" height="186" alt="image" src="https://github.com/user-attachments/assets/dda122b9-07ab-49f4-bac0-a8bb58ad9f49" />
+<img width="1287" height="217" alt="image" src="https://github.com/user-attachments/assets/775a5a1f-7876-4c42-a098-481b8c26e1ad" />
 
 ```py
 import cv2, numpy as np, matplotlib.pyplot as plt
@@ -103,7 +103,7 @@ if len(eyes)>=2:
 # Show result
 plt.imshow(cv2.cvtColor(face,cv2.COLOR_BGR2RGB)); plt.axis("off"); plt.show()
 ```
-<img width="347" height="418" alt="image" src="https://github.com/user-attachments/assets/7f85633e-624c-4894-aa07-3b4f261db3a4" />
+<img width="1289" height="202" alt="image" src="https://github.com/user-attachments/assets/d32edfc8-882e-4e0c-a504-1a5835960fb4" />
 
 ```py
 import cv2, numpy as np, matplotlib.pyplot as plt
@@ -182,9 +182,8 @@ plt.subplot(121); plt.imshow(cv2.cvtColor(cv2.imread("psprt.jpg"),cv2.COLOR_BGR2
 plt.subplot(122); plt.imshow(cv2.cvtColor(face,cv2.COLOR_BGR2RGB)); plt.title("With Sunglasses")
 plt.show()
 ```
-<img width="805" height="486" alt="image" src="https://github.com/user-attachments/assets/c07413d1-50c7-4af9-9760-308a04055a6b" />
+<img width="1308" height="790" alt="image" src="https://github.com/user-attachments/assets/30a6b01c-6fac-48ab-8937-4a8c23ff7c07" />
 
 
 Feel free to fork, contribute, or customize this project for your creative needs!
-
 
